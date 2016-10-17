@@ -16,8 +16,25 @@ and open the template in the editor.
     </head>
     <body>
         <?php include 'header.php';?>
-        <div id="rot">
-        <img src="ShippernShippingB.png" alt="Company logo" style="width:45%; height:45%;">
+        <div id="login">
+        <h2>Velg bruker</h2>
+        
+        <a href="kundeLogin.php">
+            
+        <section>
+            
+            <h3>Kunde</h3>
+                   
+        </section>
+        </a>
+        
+        <a href="ansattLogin.php">
+           <section>
+               
+                   <h3>Ansatt</h3>
+                   
+            </section>
+        </a>
         </div>
         <?php include 'footer.php';?>
     </body>

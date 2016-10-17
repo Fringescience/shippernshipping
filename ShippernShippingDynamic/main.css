@@ -10,34 +10,47 @@ and open the template in the editor.
 
 footer  {
     
-    text-align: center;
-    color: #D9CB9E;
-    margin-top: -18px;
-    font-size: 11px;
-    position: fixed;
+    position: relative;
     bottom: 0;
-    background: #374140;
+    left: 0;
+    height: 60px;
     width: 100%;
-    padding: 20px;
+    text-align: center;
+    color: #7F7F7F;
+    font-size: 11px;
+    background: #404040;
 }
 
-p   {
-    color: black;
+section {
+   width: 50%;
+   margin-left: 25%;
+   background: #F1F1F1;
+   text-align: center;
+   border: #DC3522;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 10px;
+   margin-top: 5px;
+}
+
+footer p   {
+    color: #7F7F7F;
 }
 
 
 
-body    {
-   background:  #D9CB9E;
+body  {
+   background:  #F1F1F1;
    font-family: 'Open Sans', sans-serif;
 }
 
 
 
+
 header  {
-    background: #374140;
+    background: #404040;
     min-height: 64px;
-    border: #DC3522;
+    border: #7F7F7F;
     border-width: 0px 0px 1px 0px;
     border-style: solid;
 }
@@ -46,13 +59,14 @@ nav {
     float: right;
     margin-right: 1%;
     display: block;
+    background: #404040;
 }
 
 header h1   {
     float: left;
     margin-top: 14px;
     margin-left: 10px;
-    color: #DC3522;
+    color: #E5E5E5;
 }
 
 nav ul {
@@ -60,7 +74,7 @@ nav ul {
     margin: 0;
     padding: 0;
     height: 60px;
-    color: #D9CB9E;
+    color: white;
 }
 
 nav li {
@@ -73,7 +87,11 @@ nav li {
 
 a   {
       text-decoration: none;
-      color: #D9CB9E;
+      color: white;
+}
+
+h3  {
+    color: black;
 }
 
 nav li:hover    {
@@ -113,4 +131,16 @@ nav li:hover    {
     opacity: 0.1;
     width: 100%;
     height: 100%;
+}
+
+#rot  {
+    padding-left: 35%;
+}
+
+#login  {
+    text-align: center;
+}
+
+#login h2  {
+    color: black;
 }
