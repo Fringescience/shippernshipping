@@ -16,9 +16,19 @@ and open the template in the editor.
     </head>
     <body>
         <?php include 'header.php';?>
-        <div id="rot">
-        <img src="ShippernShippingB.png" alt="Company logo" style="width:45%; height:45%;">
-        </div>
+        <section>
+        <form method ="POST" action ="retrieveFromDB.php">
+            <p>
+                Username:<input type="text" name="username" size="15"/>
+            </p>
+            <p>
+                Password:<input type="text" name="password" size="15"/>
+            </p>
+            <p>
+                <input type="submit" value="Submit"/>
+            </p>
+        </form>
+        </section>
         <?php include 'footer.php';?>
     </body>
 </html>

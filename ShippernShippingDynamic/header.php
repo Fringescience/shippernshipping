@@ -21,25 +21,36 @@ and open the template in the editor.
             </h1>
             <nav>
                 <ul>
+                    <a href ="index.php">
                     <li>
-                        <a href ="index.html">Home</a>
+                        Home
                     </li>
+                    </a>
                     
+                    <a href="pickUserPage.php">
                     <li>
-                        <a href="dashboard.html">Dashboard</a>
+                        Login
                     </li>
+                    </a>
                     
+                    <a href="ourFleet.php">
                     <li>
-                        <a href="ourFleet.html">Our fleet</a>
+                       
+                        Our fleet
                     </li>
+                    </a>
                     
+                    <a href="forInvestors.php">
                     <li>
-                        <a href="forInvestors.html">For investors</a>
+                        For investors
                     </li>
+                    </a>
                     
+                    <a href="aboutUs.php">
                     <li>
-                        <a href="aboutUs.html">About us</a>
+                        About us
                     </li>
+                    </a>
                 </ul>
             </nav>
         </header>

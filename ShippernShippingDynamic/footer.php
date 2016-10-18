@@ -16,10 +16,10 @@ and open the template in the editor.
     </head>
     <body>
         <footer>
-            <p>Contact: shippernshipping@shippern.no</p> 
-            <p>phone: +47 12345678</p>
-            <p>Location: Ålesund</p>
-            <p>This webpage is protected by copyright law</p>
+            <p>Contact: shippernshipping@shippern.no
+            phone: +47 12345678
+           Location: Ålesund
+            This webpage is protected by copyright law</p>
         </footer>
     </body>
 </html>
